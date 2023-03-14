@@ -5,6 +5,8 @@ const config = {
     'no-descending-specificity': null,
     // Allow files without any styles
     'no-empty-source': null,
+    'at-rule-no-unknown': null,
+    'scss/at-rule-no-unknown': true,
   },
   overrides: [
     {
