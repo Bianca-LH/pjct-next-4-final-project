@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import './globals.scss';
-import styles from './layout.module.scss';
+import './globals.css';
+import Image from 'next/image';
+import Link from 'next/link';
+import styles from './layout.module.css';
 
 export const metadata = {
   title: 'watercolor',
@@ -12,22 +14,25 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <body>
-          {/* <header className={styles.header}> */}
           <nav>
             <div>
               <div className="navbar bg-base-100 text-orange-600">
                 <div className="flex-1">
-                  <a
-                    className="btn btn-ghost normal-case text-xl text-orange-600"
-                    href="page"
-                  >
-                    Yuyeh Lin
+                  <a className="normal-case text-xl text-orange-600" href="/">
+                    {/* <Link href="/"> */}
+                    <Image
+                      src="/images/YL_logo_color.jpg"
+                      alt="logo"
+                      width="100"
+                      height="100"
+                    />
                   </a>
+                  {/* </Link> */}
                 </div>
                 <div className="flex-none">
                   <ul className="menu menu-horizontal px-1">
                     <li>
-                      <a>About</a>
+                      <a href="/about">About</a>
                     </li>
                     <li>
                       <a>
@@ -61,7 +66,13 @@ export default function RootLayout({ children }) {
                       <a href="/contact">Contact</a>
                     </li>
                     <li>
-                      <a>Login</a>
+                      <a href="/login">Log in</a>
+                    </li>
+                    <li>
+                      <a href="/register">Register</a>
+                    </li>
+                    <li>
+                      <a href="/logout">Log out</a>
                     </li>
                   </ul>
                 </div>
@@ -76,11 +87,15 @@ export default function RootLayout({ children }) {
           {children}
           <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded text-orange-600">
             <div className="grid grid-flow-col gap-4">
-              <a className="link link-hover">About us</a>
+              <a className="link link-hover" href="/about">
+                About
+              </a>
               <a className="link link-hover" href="/contact">
                 Contact
               </a>
-              <a className="link link-hover">Login</a>
+              <a className="link link-hover" href="/login">
+                Log in
+              </a>
             </div>
             <div>
               <div className="grid grid-flow-col gap-4">

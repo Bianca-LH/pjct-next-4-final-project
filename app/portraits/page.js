@@ -6,7 +6,7 @@ export default function PortraitsPage() {
   return (
     <>
       <h1>Portraits</h1>
-      <div>
+      <div className="grid grid-cols-4 gap-4 md:grid-cols-2">
         {portraits.map((portrait) => {
           return (
             <div key={`portrait.id-${portrait.id}`}>

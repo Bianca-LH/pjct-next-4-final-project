@@ -2,6 +2,9 @@ export const landscapes = [
   {
     id: 15,
     landscapeTitle: 'Misty Pools',
+    year: '2019',
+    media: 'Watercolor on air-dried paper',
+    size: '56 x 38 cm',
     url: 'https://res.cloudinary.com/dz58qwduu/image/upload/v1677950008/Art_work_images/misty_pools_jdbxsl.jpg',
   },
   {

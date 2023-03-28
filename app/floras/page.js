@@ -1,20 +1,26 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { floras } from '../database/floras';
+import { getFlora, getFloras } from '../database/floras';
 
-export default function FlorasPage() {
+export const dynamic = 'force-dynamic';
+
+export default async function FlorasPage({}) {
+  const floras = await getFloras();
   return (
     <>
       <h1>Floras</h1>
-      <div>
+      <br />
+
+      <div className="grid grid-cols-5 gap-5 md:grid-cols-2">
         {floras.map((flora) => {
           return (
-            <div key={`flora.id-${flora.floraTitle}`}>
+            <div title="center" key={`flora.id-${flora.id}`}>
               <Link href={`/flora/${flora.floraTitle}`}>
                 <Image
                   src={flora.url}
-                  width="300"
+                  width="250"
                   height="250"
+                  crop="fill"
                   alt={flora.floraTitle}
                 />
               </Link>

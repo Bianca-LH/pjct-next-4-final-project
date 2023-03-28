@@ -6,7 +6,7 @@ export default function FaunaPage() {
   return (
     <>
       <h1>Faunas</h1>
-      <div>
+      <div className="grid grid-cols-5 gap-5 md:grid-cols-2">
         {faunas.map((fauna) => {
           return (
             <div key={`fauna.id-${fauna.id}`}>

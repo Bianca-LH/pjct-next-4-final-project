@@ -1,3 +1,4 @@
-export default function florasPage() {
-  return <h2>flowers</h2>;
+export default function FloraPage(props) {
+  console.log(props);
+  return <h2>{props.params.floraTitle}</h2>;
 }

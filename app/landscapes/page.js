@@ -6,7 +6,7 @@ export default function LandscapesPage() {
   return (
     <>
       <h1>Landscapes</h1>
-      <div>
+      <div className="grid grid-cols-6 gap-6 md:grid-cols-2">
         {landscapes.map((landscape) => {
           return (
             <div key={`landscape.id-${landscape.id}`}>
