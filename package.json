@@ -24,7 +24,7 @@
     "i": "^0.3.7",
     "js-cookie": "^3.0.1",
     "ley": "^0.8.1",
-    "next": "13.2.3",
+    "next": "^13.2.4",
     "next-cloudinary": "^4.0.0",
     "patch-package": "^6.5.1",
     "postgres": "^3.3.4",
