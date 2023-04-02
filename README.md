@@ -1,4 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h3>A web application showcasing paintings from a specific artist giving the opportunity to currate favorite-lists for gallery owners and collectors.</h3>
+
+- Design and prototype created with Figma
+
+- User authentication-register and login
+
+- PostgreSQL 
+
+- Used Coudinary as image hosting solution
+
+- Styling with Tailwind 
+
+
+Design board in Figma
+<img width="1430" alt="Screenshot 2023-04-02 at 2 36 45 PM" src="https://user-images.githubusercontent.com/118302957/229353232-914a7188-8060-4b1d-ac0c-2d08e53e0548.png">
+
+Prototype
+
+<img width="1423" alt="Screenshot 2023-04-02 at 2 37 01 PM" src="https://user-images.githubusercontent.com/118302957/229353293-cf0d5dd1-b0eb-4b64-ad28-ef49929a1e0c.png">
+
+<img width="1408" alt="Screenshot 2023-04-02 at 2 37 37 PM" src="https://user-images.githubusercontent.com/118302957/229353304-6d6b4c1a-dda1-4234-8a93-60ed9a7876c6.png">
+
+
+
+
+<!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -36,3 +61,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ -->
