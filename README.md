@@ -1,4 +1,4 @@
-<h3>A web application showcasing paintings from a specific artist giving the opportunity to currate favorite-lists for gallery owners and collectors.</h3>
+<h3>A web application showcasing paintings from a specific artist giving the opportunity to curate favorite-lists for gallery owners and collectors.</h3>
 
 - Design and prototype created with Figma
 
