@@ -1,4 +1,6 @@
-<h3>A web application showcasing paintings from a specific artist giving the opportunity to curate favorite-lists for gallery owners and collectors.</h3>
+<h3>Watercolor</h3>
+<h3>Description</h3>
+<p>A web application showcasing paintings from a specific artist giving the opportunity to curate favorite-lists for gallery owners and collectors.</p>
 
 - Design and prototype created with Figma
 
@@ -10,6 +12,14 @@
 
 - Styling with Tailwind 
 
+<!-- <h3>Future plans</h3>
+- Implemet user favorite list
+
+- Add favorite function
+
+- Admin page
+
+- Admin image upload -->
 
 Design board in Figma
 <img width="1430" alt="Screenshot 2023-04-02 at 2 36 45 PM" src="https://user-images.githubusercontent.com/118302957/229353232-914a7188-8060-4b1d-ac0c-2d08e53e0548.png">
